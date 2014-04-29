@@ -10,6 +10,7 @@ import sailpoint.rest.BaseResource;
 public class HelloWorld extends BaseResource {
 
 	public HelloWorld() {
+		System.out.println("Helloworld Constructor called");
 		System.out.println("Helloworld");
 	}
 
